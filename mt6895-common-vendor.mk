@@ -126,7 +126,6 @@ PRODUCT_PACKAGES += \
     lib_iir \
     lib_speech_enh \
     libadpcmdec_mtk \
-    libaedv \
     libalacdec_mtk \
     libapu_mdw \
     libapu_mdw_batch \
@@ -176,11 +175,8 @@ PRODUCT_PACKAGES += \
     libgralloc_extra \
     libhfmanager \
     libhfmanagerwrapper \
-    libion_mtk \
-    libion_ulit \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libladder \
     libmiresample \
     libmisound \
     libmisoundcrossfade \
@@ -240,8 +236,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.audio@6.1 \
     vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.audio@8.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
     vendor.mediatek.hardware.mmagent@1.0 \
     vendor.mediatek.hardware.mms@1.0 \
     vendor.mediatek.hardware.mms@1.1 \
@@ -265,6 +259,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
     sensors.mediatek.V2.0 \
+    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
     libalsautils-v31 \
     libcodec2_hidl@1.0-v31 \
     libcodec2_hidl@1.1-v31 \
@@ -282,7 +277,7 @@ PRODUCT_PACKAGES += \
     libstagefright_bufferqueue_helper-v35 \
     libwifi-hal-mtk \
     libDR \
-    libmnl \
+    libmnl_mtk \
     libneuron_runtime.5 \
     libneuron_wrapper \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
@@ -327,7 +322,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libDR_so \
     vendor_lib64_libaiselector_so \
     vendor_lib64_libdpframework_so \
-    vendor_lib64_libmnl_so \
+    vendor_lib64_libmnl_mtk_so \
     vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
     vendor_lib64_libneuron_adapter_mgvi_so \
