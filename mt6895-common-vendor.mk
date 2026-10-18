@@ -294,7 +294,6 @@ PRODUCT_PACKAGES += \
     manifest_apuware_utils.xml \
     vendor.mediatek.hardware.neuropilot.agent@1.0-service.xml \
     conninfra_loader \
-    android.hardware.audio.service.mediatek \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss-service.mediatek \
     android.hardware.neuralnetworks-shim-service-mtk \
